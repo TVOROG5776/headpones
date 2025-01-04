@@ -1,0 +1,32 @@
+.div-main-general-section6 {
+    display: flex;
+    max-width: 1250px;
+    gap: 170px;
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    &__osnova-content {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    &__osnova-content-text {
+        width: 300px;
+    }
+}
+
+.posishion-section6-main {
+    display: flex;
+    justify-content: end;
+}
+
+@media (max-width:1383px) {
+    .part2-section6 {
+        width: 500px;
+    }
+}
