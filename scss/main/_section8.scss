@@ -1,4 +1,4 @@
-.div-main-general-section8 {
+.div-main-general-section-history {
     display: flex;
     justify-content: end;
     gap: 150px;
@@ -29,11 +29,11 @@
 }
 
 @media (max-width:1275px) {
-    .div-main-general-section8 {
+    .div-main-general-section-history {
         gap: 100px;
     }
 
-    .part2-section8 {
+    .part2-section-history {
         width: 500px;
     }
 }

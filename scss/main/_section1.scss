@@ -1,12 +1,12 @@
-.custom-section-intro-wrapper {
+.div-main-general-section-order {
     display: flex;
     margin: 0px 0px 170px 80px;
 
-    &__text-primary {
+    &__div-text-text-start {
         width: 250px;
     }
 
-    &__div-text-text2 {
+    &__div-text-text-end {
         width: 120px;
     }
 
@@ -39,16 +39,16 @@ h1 {
     width: 600px;
 }
 
-.part2-section1 {
+.part2-section-order {
     width: 600px;
 }
 
 @media (max-width: 1300px) {
-    .part2-section1 {
+    .part2-section-order {
         width: 480px;
     }    
 
-    .div-main-general-section1__div-text-and-button-button {
+    .div-main-general-section-order__div-text-and-button-button {
         padding: 22px 122px;
     }
 }
