@@ -8,7 +8,7 @@
   color: rgba(255, 255, 255, 0.8);
 }
 
-.div-header-general {
+.custom-header-wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -16,11 +16,11 @@
   width: 1280px;
 }
 
-header {
+.custom-header {
   background-color: black;
 }
 
-.container-pozishin-header {
+.custom-header-container {
   display: flex;
   justify-content: center;
 }
@@ -42,22 +42,22 @@ header {
   color: rgba(255, 255, 255, 0.3);
 }
 
-.div-main-general-section1 {
+.custom-section-intro-wrapper {
   display: flex;
   margin: 0px 0px 170px 80px;
 }
-.div-main-general-section1__div-text-text1 {
+.custom-section-intro-wrapper__text-primary {
   width: 250px;
 }
-.div-main-general-section1__div-text-text2 {
+.custom-section-intro-wrapper__div-text-text2 {
   width: 120px;
 }
-.div-main-general-section1__div-text {
+.custom-section-intro-wrapper__div-text {
   display: flex;
   flex-direction: column;
   gap: 36px;
 }
-.div-main-general-section1__div-text-and-button-button {
+.custom-section-intro-wrapper__div-text-and-button-button {
   font-weight: 600;
   font-size: 20px;
   letter-spacing: 0.02em;
@@ -67,7 +67,7 @@ header {
   background: #DF3D3A;
   border: 0px;
 }
-.div-main-general-section1__div-text-and-button {
+.custom-section-intro-wrapper__div-text-and-button {
   display: flex;
   flex-direction: column;
   gap: 86px;

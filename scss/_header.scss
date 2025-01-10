@@ -9,7 +9,7 @@
     }
 }
 
-.div-header-general {
+.custom-header-wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -17,11 +17,11 @@
     width: 1280px;
 }
 
-header {
+.custom-header {
     background-color: black;
 }
 
-.container-pozishin-header {
+.custom-header-container {
     display: flex;
     justify-content: center;
 }
