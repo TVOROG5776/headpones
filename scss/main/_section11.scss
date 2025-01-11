@@ -1,14 +1,14 @@
 .div-main-general-section-question {
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    align-items: center;
 
     &__div-text {
         display: flex;
         justify-content: space-between;
         width: 1029px;
         padding: 0px 0px 24px;
-        border-bottom: 2px solid;
+        border-bottom: 2px solid rgb(36, 34, 34);
     }
 
     &__button {
@@ -23,6 +23,10 @@
         display: flex;
         flex-direction: column;
         gap: 64px;
+    }
+
+    &__title {
+        padding: 0px 0px 50px;
     }
 }
 

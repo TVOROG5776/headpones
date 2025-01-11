@@ -8,7 +8,7 @@
   color: rgba(255, 255, 255, 0.8);
 }
 
-.custom-header-wrapper {
+.div-header-general {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -16,11 +16,11 @@
   width: 1280px;
 }
 
-.custom-header {
+header {
   background-color: black;
 }
 
-.custom-header-container {
+.container-pozishin-header {
   display: flex;
   justify-content: center;
 }
@@ -44,7 +44,7 @@
 
 .div-main-general-section-order {
   display: flex;
-  margin: 0px 0px 170px 80px;
+  justify-content: end;
 }
 .div-main-general-section-order__div-text-text-start {
   width: 250px;
@@ -115,6 +115,10 @@ h1 {
   display: flex;
   flex-direction: column;
   gap: 50px;
+}
+
+.section-description {
+  padding: 170px 0px 0px;
 }
 
 @media (max-width: 1200px) {
@@ -188,7 +192,7 @@ h1 {
 
 .div-main-general-section-information-platform {
   display: flex;
-  max-width: 1250px;
+  justify-content: end;
   gap: 170px;
 }
 .div-main-general-section-information-platform__content {
@@ -275,24 +279,24 @@ h1 {
     width: 500px;
   }
 }
-.div-main-general-section9-developer {
+.div-main-general-section-developer {
   display: flex;
   align-items: end;
   justify-content: center;
   gap: 260px;
   padding: 0px 0px 170px 0px;
 }
-.div-main-general-section9-developer__osnava-content {
+.div-main-general-section-developer__osnava-content {
   display: flex;
   flex-direction: column;
   gap: 32px;
 }
-.div-main-general-section9-developer__osnava-content-img {
+.div-main-general-section-developer__osnava-content-img {
   width: 34px;
   height: 50px;
   padding: 0px 0px 18px 0px;
 }
-.div-main-general-section9-developer__osnava-content-titel {
+.div-main-general-section-developer__osnava-content-titel {
   width: 400px;
 }
 
@@ -346,14 +350,14 @@ h1 {
 .div-main-general-section-question {
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  align-items: center;
 }
 .div-main-general-section-question__div-text {
   display: flex;
   justify-content: space-between;
   width: 1029px;
   padding: 0px 0px 24px;
-  border-bottom: 2px solid;
+  border-bottom: 2px solid rgb(36, 34, 34);
 }
 .div-main-general-section-question__button {
   color: white;
@@ -366,6 +370,9 @@ h1 {
   display: flex;
   flex-direction: column;
   gap: 64px;
+}
+.div-main-general-section-question__title {
+  padding: 0px 0px 50px;
 }
 
 .section11-center {
@@ -438,23 +445,23 @@ h1 {
   width: 100%;
 }
 
-.div-main-general-section13 {
+.div-main-general-section-end {
   display: flex;
   justify-content: center;
   gap: 150px;
   padding: 170px 0px;
 }
-.div-main-general-section13__div-text {
+.div-main-general-section-end__div-text {
   display: flex;
   flex-direction: column;
   gap: 50px;
 }
-.div-main-general-section13__osnova-content {
+.div-main-general-section-end__osnova-content {
   display: flex;
   flex-direction: column;
   gap: 53px;
 }
-.div-main-general-section13__button {
+.div-main-general-section-end__button {
   background-color: black;
   border: 1px solid red;
   color: white;
@@ -465,36 +472,36 @@ h1 {
   padding: 22px 229px;
   margin: 33px 0px 0px;
 }
-.div-main-general-section13__div-input-input1 {
+.div-main-general-section-end__div-input-input1 {
   background-color: black;
   color: white;
   border: 0px;
   border-bottom: 2px solid rgb(17, 17, 17);
   padding: 0px 277px 17px 0px;
 }
-.div-main-general-section13__div-input-input2 {
+.div-main-general-section-end__div-input-input2 {
   background-color: black;
   color: white;
   border: 0px;
   border-bottom: 2px solid rgb(17, 17, 17);
   padding: 0px 192px 97px 0px;
 }
-.div-main-general-section13__div-input {
+.div-main-general-section-end__div-input {
   display: flex;
   flex-direction: column;
   gap: 42px;
   width: 510px;
 }
-.div-main-general-section13__div-galochka-link {
+.div-main-general-section-end__div-galochka-link {
   color: rgba(255, 255, 255, 0.8);
   text-decoration: underline;
   padding: 0px 20px 0px 0px;
 }
-.div-main-general-section13__div-galochka-flex-link {
+.div-main-general-section-end__div-galochka-flex-link {
   display: flex;
   gap: 2px;
 }
-.div-main-general-section13__div-text-h4 {
+.div-main-general-section-end__div-text-h4 {
   width: 370px;
 }
 
