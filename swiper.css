@@ -295,6 +295,10 @@
     top: 6150px;  
 }
 
+.posishion-ultra {
+    position: static;
+}
+
 .swiper-button-next.swiper-button-disabled,
 .swiper-button-prev.swiper-button-disabled {
     opacity: .35;
