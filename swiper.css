@@ -289,7 +289,7 @@
     justify-content: center;
 }
 
-.posishion1,.posishion2,.posishion3,.posishion4 {
+.posishion-video-cancel {
     position: static;
     right: 580px;
     top: 6150px;  

@@ -78,12 +78,12 @@ h1 {
   width: 600px;
 }
 
-.part2-section-order {
+.part-img-section-order {
   width: 600px;
 }
 
 @media (max-width: 1300px) {
-  .part2-section-order {
+  .part-img-section-order {
     width: 480px;
   }
   .div-main-general-section-order__div-text-and-button-button {
@@ -94,13 +94,13 @@ h1 {
   display: flex;
   gap: 100px;
 }
-.div-main-general-section-description__div-text-2half {
+.div-main-general-section-description__div-text-bottom-half {
   width: 390px;
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-.div-main-general-section-description__div-text-1half {
+.div-main-general-section-description__div-text-top-half {
   width: 390px;
   display: flex;
   flex-direction: column;
@@ -122,7 +122,7 @@ h1 {
 }
 
 @media (max-width: 1200px) {
-  .part2-section-description {
+  .part-img-section-description {
     width: 480px;
   }
 }
@@ -136,20 +136,20 @@ h1 {
 .div-main-general-section-functionality__title {
   padding: 0px 140px 0px 0px;
 }
-.div-main-general-section-functionality__div-content-text1-half {
+.div-main-general-section-functionality__div-content-text-left-half {
   display: flex;
   align-items: center;
   gap: 10px;
 }
-.div-main-general-section-functionality__div-content-text1-half-img {
+.div-main-general-section-functionality__div-content-text-left-half-img {
   height: 13px;
 }
-.div-main-general-section-functionality__div-content-text1 {
+.div-main-general-section-functionality__div-content-text-left {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-.div-main-general-section-functionality__div-content-text2 {
+.div-main-general-section-functionality__div-content-text-right {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -215,7 +215,7 @@ h1 {
 }
 
 @media (max-width: 1383px) {
-  .part2-section-information-platform {
+  .part-img-section-information-platform {
     width: 500px;
   }
 }
@@ -229,20 +229,20 @@ h1 {
   flex-direction: column;
   gap: 50px;
 }
-.div-main-general-section-advantages__div-content-part1 {
+.div-main-general-section-advantages__div-content-part-top {
   display: flex;
   flex-direction: column;
   gap: 24px;
   width: 330px;
 }
-.div-main-general-section-advantages__div-content-part2 {
+.div-main-general-section-advantages__div-content-part-bottom {
   display: flex;
   flex-direction: column;
   gap: 24px;
   width: 290px;
 }
 
-.part2-section-advantages {
+.part-img-section-advantages {
   width: 500px;
 }
 
@@ -251,23 +251,23 @@ h1 {
   justify-content: end;
   gap: 150px;
 }
-.div-main-general-section-history__div-part1 {
+.div-main-general-section-history__div-part-top {
   display: flex;
   flex-direction: column;
   gap: 50px;
 }
-.div-main-general-section-history__div-part1-text {
+.div-main-general-section-history__div--top-text {
   display: flex;
   flex-direction: column;
   gap: 74px;
 }
-.div-main-general-section-history__div-part1-title {
+.div-main-general-section-history__div-part-top-title {
   width: 200px;
 }
-.div-main-general-section-history__div-part1-text {
+.div-main-general-section-history__div-part-top-text {
   width: 420px;
 }
-.div-main-general-section-history__div-part1-text2 {
+.div-main-general-section-history__div-part-top-text-start {
   width: 300px;
 }
 
@@ -275,7 +275,7 @@ h1 {
   .div-main-general-section-history {
     gap: 100px;
   }
-  .part2-section-history {
+  .part-end-section-history {
     width: 500px;
   }
 }
@@ -325,15 +325,15 @@ h1 {
 .div-main-general-section-video__div-content-div-link-link {
   color: #DF3D3A;
 }
-.div-main-general-section-video__video3 {
+.div-main-general-section-video__video-end {
   width: 920px;
   height: 590px;
 }
-.div-main-general-section-video__video2 {
+.div-main-general-section-video__video--middle {
   width: 920px;
   height: 590px;
 }
-.div-main-general-section-video__video1 {
+.div-main-general-section-video__video-start {
   width: 920px;
   height: 590px;
 }
@@ -375,7 +375,7 @@ h1 {
   padding: 0px 0px 50px;
 }
 
-.section11-center {
+.section-question-center {
   display: flex;
   justify-content: center;
 }
@@ -387,22 +387,22 @@ h1 {
   padding: 170px 0px;
   position: relative;
 }
-.div-main-general-section-prise__div-part1 {
+.div-main-general-section-prise__div-part-title {
   display: flex;
   flex-direction: column;
   gap: 50px;
 }
-.div-main-general-section-prise__div-part1-img {
+.div-main-general-section-prise__div-part-title-img {
   display: flex;
   gap: 70px;
   padding: 0px 0px 0px 20px;
 }
-.div-main-general-section-prise__div-part2 {
+.div-main-general-section-prise__div-part-description {
   display: flex;
   flex-direction: column;
   gap: 26px;
 }
-.div-main-general-section-prise__div-part3 {
+.div-main-general-section-prise__div-part-end {
   display: flex;
   flex-direction: column;
   gap: 32px;
@@ -412,17 +412,17 @@ h1 {
   flex-direction: column;
   gap: 50px;
 }
-.div-main-general-section-prise__div-part2-text {
+.div-main-general-section-prise__div-part-description-text {
   display: flex;
   justify-content: space-between;
   padding: 26px 0px 0px;
   border-top: 2px solid;
   width: 400px;
 }
-.div-main-general-section-prise__div-part3-text {
+.div-main-general-section-prise__div-part-end-text {
   color: #DF3D3A;
 }
-.div-main-general-section-prise__div-part3-button {
+.div-main-general-section-prise__div-part-end-button {
   font-weight: 600;
   font-size: 20px;
   letter-spacing: 0.02em;
@@ -433,7 +433,7 @@ h1 {
   width: 400px;
   border: 0px;
 }
-.div-main-general-section-prise__div-part2-text2 {
+.div-main-general-section-prise__div-part-description-text-end {
   display: flex;
   justify-content: space-between;
   width: 400px;
@@ -473,14 +473,14 @@ h1 {
   padding: 22px 229px;
   margin: 33px 0px 0px;
 }
-.div-main-general-section-end__div-input-input1 {
+.div-main-general-section-end__div-input-input-start {
   background-color: black;
   color: white;
   border: 0px;
   border-bottom: 2px solid rgb(17, 17, 17);
   padding: 0px 277px 17px 0px;
 }
-.div-main-general-section-end__div-input-input2 {
+.div-main-general-section-end__div-input-input-end {
   background-color: black;
   color: white;
   border: 0px;
@@ -502,7 +502,7 @@ h1 {
   display: flex;
   gap: 2px;
 }
-.div-main-general-section-end__div-text-h4 {
+.div-main-general-section-end__div-text-h-midlle {
   width: 370px;
 }
 
@@ -565,6 +565,7 @@ h4 {
 }
 
 body {
+  font-family: "Roboto Condensed", sans-serif;
   background-color: black;
 }
 

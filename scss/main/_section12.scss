@@ -5,25 +5,25 @@
     padding: 170px 0px;
     position: relative;
 
-    &__div-part1 {
+    &__div-part-title {
         display: flex;
         flex-direction: column;
         gap: 50px;
     }
 
-    &__div-part1-img {
+    &__div-part-title-img {
         display: flex;
         gap: 70px;
         padding: 0px 0px 0px 20px;
     }
 
-    &__div-part2 {
+    &__div-part-description {
         display: flex;
         flex-direction: column;
         gap: 26px;
     }
 
-    &__div-part3 {
+    &__div-part-end {
         display: flex;
         flex-direction: column;
         gap: 32px;
@@ -35,7 +35,7 @@
         gap: 50px;
     }
 
-    &__div-part2-text {
+    &__div-part-description-text {
         display: flex;
         justify-content: space-between;
         padding: 26px 0px 0px;
@@ -43,11 +43,11 @@
         width: 400px;
     }
 
-    &__div-part3-text {
+    &__div-part-end-text {
         color: #DF3D3A;
     }
 
-    &__div-part3-button {
+    &__div-part-end-button {
         font-weight: 600;
         font-size: 20px;
         letter-spacing: 0.02em;
@@ -59,7 +59,7 @@
         border: 0px;
     }
 
-    &__div-part2-text2 {
+    &__div-part-description-text-end {
         display: flex;
         justify-content: space-between;
         width: 400px;

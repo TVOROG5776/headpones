@@ -9,23 +9,23 @@
     padding: 170px 0px;
     align-items: center;
 
-    &__div-content-text1-half {
+    &__div-content-text-left-half {
         display: flex;
         align-items: center;
         gap: 10px;
     }
 
-    &__div-content-text1-half-img {
+    &__div-content-text-left-half-img {
         height: 13px;
     }
 
-    &__div-content-text1 {
+    &__div-content-text-left {
         display: flex;
         flex-direction: column;
         gap: 20px;
     }
 
-    &__div-content-text2 {
+    &__div-content-text-right {
         display: flex;
         flex-direction: column;
         gap: 20px;

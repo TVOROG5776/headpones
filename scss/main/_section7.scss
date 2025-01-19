@@ -9,14 +9,14 @@
         gap: 50px;
     }
 
-    &__div-content-part1 {
+    &__div-content-part-top {
         display: flex;
         flex-direction: column;
         gap: 24px;
         width: 330px;
     }
 
-    &__div-content-part2 {
+    &__div-content-part-bottom {
         display: flex;
         flex-direction: column;
         gap: 24px;
@@ -24,6 +24,6 @@
     }
 }
 
-.part2-section-advantages {
+.part-img-section-advantages {
     width: 500px;
 }
