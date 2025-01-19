@@ -134,7 +134,7 @@ h1 {
   align-items: center;
 }
 .div-main-general-section-functionality__title {
-  padding: 0px 140px 0px 0px;
+  padding: 0px 230px 0px 0px;
 }
 .div-main-general-section-functionality__div-content-text-left-half {
   display: flex;
@@ -187,7 +187,7 @@ h1 {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  width: 380px;
+  width: 430px;
 }
 
 .div-main-general-section-information-platform {
@@ -535,8 +535,9 @@ h1 {
 
 p {
   font-weight: 400;
-  font-size: 16px;
   color: rgba(255, 255, 255, 0.8);
+  font-size: 20px;
+  line-height: 145%;
 }
 
 h1 {
