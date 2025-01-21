@@ -9,7 +9,7 @@
         gap: 50px;
     }
 
-    &__div--top-text {
+    &__div-top-text {
         display: flex;
         flex-direction: column;
         gap: 74px;
@@ -20,11 +20,14 @@
     }
 
     &__div-part-top-text {
+        display: flex;
         width: 420px;
+        flex-direction: column;
+        gap: 74px;
     }
 
     &__div-part-top-text-start {
-        width: 300px;
+        width: 400px;
     }
 }
 

@@ -47,10 +47,10 @@ header {
   justify-content: end;
 }
 .div-main-general-section-order__div-text-text-start {
-  width: 250px;
+  width: 300px;
 }
 .div-main-general-section-order__div-text-text-end {
-  width: 120px;
+  width: 150px;
 }
 .div-main-general-section-order__div-text {
   display: flex;
@@ -256,7 +256,7 @@ h1 {
   flex-direction: column;
   gap: 50px;
 }
-.div-main-general-section-history__div--top-text {
+.div-main-general-section-history__div-top-text {
   display: flex;
   flex-direction: column;
   gap: 74px;
@@ -265,10 +265,13 @@ h1 {
   width: 200px;
 }
 .div-main-general-section-history__div-part-top-text {
+  display: flex;
   width: 420px;
+  flex-direction: column;
+  gap: 74px;
 }
 .div-main-general-section-history__div-part-top-text-start {
-  width: 300px;
+  width: 400px;
 }
 
 @media (max-width: 1275px) {
@@ -293,7 +296,7 @@ h1 {
 }
 .div-main-general-section-developer__osnava-content-img {
   width: 34px;
-  height: 50px;
+  height: 30px;
   padding: 0px 0px 18px 0px;
 }
 .div-main-general-section-developer__osnava-content-titel {
@@ -315,7 +318,7 @@ h1 {
   gap: 16px;
 }
 .div-main-general-section-video__div-content-text-text {
-  width: 200px;
+  width: 240px;
 }
 .div-main-general-section-video__div-content-text-link {
   color: #DF3D3A;
@@ -326,16 +329,16 @@ h1 {
   color: #DF3D3A;
 }
 .div-main-general-section-video__video-end {
-  width: 920px;
-  height: 590px;
+  max-width: 1220px;
+  height: 540px;
 }
-.div-main-general-section-video__video--middle {
-  width: 920px;
-  height: 590px;
+.div-main-general-section-video__video-middle {
+  max-width: 1220px;
+  height: 540px;
 }
 .div-main-general-section-video__video-start {
-  width: 920px;
-  height: 590px;
+  width: 920;
+  height: 540px;
 }
 
 .active {
@@ -345,6 +348,10 @@ h1 {
 .swiper-button-section-video {
   display: flex;
   gap: 12px;
+}
+
+.swiper-width {
+  max-width: 920px;
 }
 
 .div-main-general-section-question {
@@ -446,6 +453,10 @@ h1 {
   width: 100%;
 }
 
+.swiper-width-section-prise {
+  max-width: 700px;
+}
+
 .div-main-general-section-end {
   display: flex;
   justify-content: center;
@@ -496,7 +507,8 @@ h1 {
 .div-main-general-section-end__div-galochka-link {
   color: rgba(255, 255, 255, 0.8);
   text-decoration: underline;
-  padding: 0px 20px 0px 0px;
+  padding: 4px 0px 0px 10px;
+  font-size: 18px;
 }
 .div-main-general-section-end__div-galochka-flex-link {
   display: flex;

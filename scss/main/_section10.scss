@@ -15,7 +15,7 @@
     }
 
     &__div-content-text-text {
-        width: 200px;
+        width: 240px;
     }
 
     &__div-content-text-link {
@@ -29,18 +29,18 @@
     }
 
     &__video-end {
-        width: 920px;
-        height: 590px;
+        max-width: 1220px;
+        height: 540px;
     }
 
-    &__video--middle {
-        width: 920px;
-        height: 590px;
+    &__video-middle {
+        max-width: 1220px;
+        height: 540px;
     }
 
     &__video-start {
-        width: 920px;
-        height: 590px;
+        width: 920;
+        height: 540px;
     }
 }
 
@@ -51,4 +51,8 @@
 .swiper-button-section-video {
     display: flex;
     gap: 12px;
+}
+
+.swiper-width {
+    max-width: 920px;
 }
