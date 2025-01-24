@@ -169,7 +169,7 @@
    */
   
   button,
-  select { /* 1 */
+  select { 
     text-transform: none;
   }
   
