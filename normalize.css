@@ -152,30 +152,17 @@
     line-height: 1.15; /* 1 */
     margin: 0px; /* 2 */
   }
-  
-  /**
-   * Show the overflow in IE.
-   * 1. Show the overflow in Edge.
-   */
-  
+
   button,
   input { /* 1 */
     overflow: visible;
   }
   
-  /**
-   * Remove the inheritance of text transform in Edge, Firefox, and IE.
-   * 1. Remove the inheritance of text transform in Firefox.
-   */
   
   button,
-  select { /* 1 */
+  select { 
     text-transform: none;
   }
-  
-  /**
-   * Correct the inability to style clickable types in iOS and Safari.
-   */
   
   button,
   [type="button"],
@@ -214,13 +201,6 @@
   fieldset {
     padding: 0.35em 0.75em 0.625em;
   }
-  
-  /**
-   * 1. Correct the text wrapping in Edge and IE.
-   * 2. Correct the color inheritance from `fieldset` elements in IE.
-   * 3. Remove the padding so developers are not caught out when they zero out
-   *    `fieldset` elements in all browsers.
-   */
   
   legend {
     box-sizing: border-box; /* 1 */

@@ -28,7 +28,7 @@
         margin: 33px 0px 0px;
     }
 
-    &__div-input-input1 {
+    &__div-input-input-start {
         background-color: black;
         color: white;
         border: 0px;
@@ -36,7 +36,7 @@
         padding: 0px 277px 17px 0px;
     }
 
-    &__div-input-input2 {
+    &__div-input-input-end {
         background-color: black;
         color: white;
         border: 0px;
@@ -54,7 +54,8 @@
     &__div-galochka-link {
         color: rgba(255, 255, 255, 0.8);
         text-decoration: underline;
-        padding: 0px 20px 0px 0px;
+        padding: 4px 0px 0px 10px;
+        font-size: 18px;
     }
 
     &__div-galochka-flex-link {
@@ -62,7 +63,7 @@
         gap: 2px;
     }
 
-    &__div-text-h4 {
+    &__div-text-h-midlle {
         width: 370px;
     }
 }

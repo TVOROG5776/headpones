@@ -28,7 +28,6 @@
     z-index: 1;
     display: block;
     height: 664px;
-    max-width: 700px;
 }
 
 .swiper-vertical>.swiper-wrapper {
@@ -289,10 +288,14 @@
     justify-content: center;
 }
 
-.posishion1,.posishion2,.posishion3,.posishion4 {
+.posishion-video-cancel {
     position: static;
     right: 580px;
     top: 6150px;  
+}
+
+.posishion-ultra {
+    position: static;
 }
 
 .swiper-button-next.swiper-button-disabled,

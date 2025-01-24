@@ -3,11 +3,11 @@
     justify-content: end;
 
     &__div-text-text-start {
-        width: 250px;
+        width: 300px;
     }
 
     &__div-text-text-end {
-        width: 120px;
+        width: 150px;
     }
 
     &__div-text {
@@ -34,17 +34,18 @@
         padding: 94px 0px 0px 100px;
     }
 }
+/* jhgfd/*
 
 h1 {
     width: 600px;
 }
 
-.part2-section-order {
+.part-img-section-order {
     width: 600px;
 }
 
 @media (max-width: 1300px) {
-    .part2-section-order {
+    .part-img-section-order {
         width: 480px;
     }    
 
